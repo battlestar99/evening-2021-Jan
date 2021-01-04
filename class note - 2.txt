@@ -1,0 +1,151 @@
+Basic Java 
+
+class 
+
+statement >> ;
+
+int x = 45; 
+
+scope {}
+class function control statment
+
+how to store data in the code 
+
+15 
+
+decalaretion , initiazliation 
+
+declare
+int y ; 
+
+initialize
+y=123;
+
+int y = 123; 
+
+datatype variablename = valueofthevariable; 
+
+876 76 6534 
+
+String ssn = "876 76 6534 "; 
+
+anik@agile1tech.com 
+
+String email = "anik@agile1tech.com ";
+
+money deposited in a bank account 
+
+double money = 23767.878; 
+
+how many customers I have 
+
+int numberOfcustomers = 56;
+
+String int boolean 
+
+boolean x = true;
+
+boolean y = false; 
+
+Operator 
+
+int x = 12; 
+int y = 34; 
+
+int sum = x+y;
+
+String name= "Michael";
+String company = "Dunder mifflin";
+
+name + company 
+
+control statment >> 
+
+conditional statement >> 
+
+
+int x = 12; 
+
+if(condition){
+
+dfskjafkdljas
+dfjadsklf
+dsfjlsadjf
+dfslafjdslaj
+
+}
+
+
+
+
+
+looping 
+
+
+
+
+
+
+
+x=5;
+
+x==5   >> true
+x>5 >> false
+x<5 >> false
+
+&& - and operator 
+||  - or operator
+
+int x = 76; 
+int y = 101; 
+
+if(x>76 || y==101){
+
+
+
+}
+
+control statement - looping 
+
+for loop 
+
+initialization - starting counting point
+condition - loop will continue till the condition is true 
+increamenet/decreament - increase or decrease the value 
+
+if(condition)
+for(initialization, condtion, increament/decreament)
+
+for (int x=1;x<11;x++){
+
+
+}
+
+
+
+when loop 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

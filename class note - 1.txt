@@ -1,0 +1,201 @@
+Class - 1 - setup the environment 
+
+what will happen after the class 
+
+1. homeworks - 2 weeks - thursday 
+2PM - 3PM - help session - thursday 
+
+2. upload in github code repository 
+
+answering question
+writing code 
+
+
+computer programming 
+
+language 
+
+java - python- c 
+
+1. problem solving - instruction 
+
+ 
+using any programming language to give instruction to the computer
+
+editor - eclipse 
+compiler - traslate our code to machine language - jdk 
+
+2. giving computer instruction - 
+
+walmart.com
+adding eggs in the cart
+payment and chekcout 
+
+
+you need to buy a car 
+
+income - budget
+look into 5 cars 
+compare them based on your preferene - white, sedan, 2 years old, manual
+buy the car 
+
+calculate - compute 
+
+
+
+data 
+logic 
+
+
+
+write a software to calculate the mortage payment for your home? 
+
+steps >> 
+
+1. what is the price of the home - 
+2. how many years of payment - 
+3. apr - percentage rate - 
+4. ssn - to check your credit score 
+5. down payment 
+
+300000X1.5/100 = a
+30X12 - b
+
+ssn>> credit score >> apr>> 1.5
+
+a/b
+
+1. how to store data and how to operate on data 
+
+43232, anik, 33.45, image, boolean 
+
+datatype - int, String, boolean .... float, long, char
+200 - memory space - variable 
+
+datatype - variable - dfdf223
+
+declaretion of a variable 
+int count;
+count=fasf; 
+String firstnamename; 
+boolean flag; 
+
+x="fdasfd"
+
+
+
+
+
+declaretion + initialization 
+
+int x; 
+
+x=55;
+
+x=34;
+
+..............................
+
+int x = 34; 
+
+datatype variable = value; 
+
+int income = 100000; 
+
+String carplate= "vs1304";
+
+double apr=1.5;
+
+int x = 15; 
+
+int is the datatype
+x is the varible name
+15 is the currnet value of the variable 
+
+int String boolean
+
+lets get started with eclipse 
+
+datatype variablename = value; 
+
+int xy = 34; 
+String name="dfhd"; 
+
+code syntax - how to store data by creating variables 
+
+java has a basic unit of code - 
+
+class 
+ - two types of class 
+   run as java application - main method of java 
+   can not run - we will discuss later 
+
+eclipse >> 
+
+create a java project - src - write all your code 
+
+Key things: 
+
+1. any name you are going to use, never use a space
+camel case - 
+iAmGoingToLearn
+
+
+
+Java Note: 
+
+1. basic unit of java is a class 
+
+2. 100 classes - 50 class is related mortage problem, 
+30 classes are related to solving carprice problem
+20 classes are related to scrap data from web 
+
+package mortage
+carprice
+scrapdata
+
+one class is one script - 
+
+scope - class, methods - starting and ending point defining by 
+the {}
+
+java is a case sensitive language 
+
+a and A is not the same thing
+
+value is going from right side to left side 
+
+x=10; 
+y=20; 
+
+x=y ;    x=20 y=20
+
+y=x;   x=10,y=10
+
+10 and 11 
+
+10> 11 -- true
+10<11 --false 
+
+boolean variable represents results of a condition 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
