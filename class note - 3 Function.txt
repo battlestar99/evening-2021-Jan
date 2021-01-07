@@ -1,0 +1,175 @@
+anik@agile1tech.com 
+
+java project - jre system library / JDK 
+   src >> package 
+
+car payment calculatore >> monthly payment of new bought car 
+
+baseprice
+apr >> credit score 
+downpayment - 
+financingprice 
+
+60 months = financingprice/months 
+
+monthlypayment
+
+3.4 
+
+3 >> 3.0
+
+java core library >> 
+non runnable classes 
+and functions 
+
+what is a function in java? 
+
+function is a block of code that we write for re-usuable purpose 
+
+
+Function 
+
+1. how to create a function
+2. how to use a function created by us 
+classname objectname=new classname();
+3. how to use function created by other programmers - from library
+
+class >> main method of java > runnable class
+non runnable class> function 
+
+structure of creating a function >> 
+
+accessmodifer returntype functionname(inputs){
+
+
+}
+
+public double getApr(int creditscore){
+
+
+return 
+
+}
+
+100 non runnable classes - 1500 functions 
+
+jar file - name a library 
+
+webdriver driver=new webdriver(); 
+
+driver.finelement(
+
+driver.gettext()
+
+structure of creating function 
+
+how to use functions from a main method 
+1. create an object
+2. call the function 
+
+1. what is  a java Function - 
+
+public class classname(){
+ public static void main(String args[]){
+
+// starting point 
+// instructions 
+int x = 5; 
+int y=x+y; 
+// instructions
+//instructions
+
+}
+
+
+}
+
+
+
+
+
+
+functions - 
+
+int go(input){
+// instruction line 1
+//insturction line 2 
+//instruction line 3
+
+}
+
+getText();
+
+
+
+
+2. why we need function? 
+
+
+3. 
+create
+use 
+create
+use 
+
+input ( parameters) >> system (function) >> ouput ( return) 
+
+parameters can be multiple
+return can only be one 
+
+public typeofdata 
+
+returntypedata functionname
+
+public double go(String x, int y){
+
+// code of insructions
+
+
+
+}
+credit scrot of a person 
+
+creating a function: 
+
+public boolean getcreditscroe(int x, int y){
+boolean flag = true; 
+if(x==y){
+
+
+}
+
+else{
+flag = false; 
+}
+
+return flag; 
+
+}
+
+// 
+
+
+
+getcreditscore(5,4)
+grecrediscorte(10,102)
+
+gettext(); 
+
+login
+
+signup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
