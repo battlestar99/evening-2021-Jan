@@ -9,6 +9,12 @@ public class mainRun {
 		utitlity abc = new utitlity();
 		
 		// 
+		
+		abc.printName("fdsf");
+		
+		String ssn = abc.getssn();
+		
+		
 		abc.printName("dfas");
 		
 		int x = abc.addnumbers(12,54);

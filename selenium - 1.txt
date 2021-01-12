@@ -1,0 +1,52 @@
+class abc 
+
+abc objectname = new abc();
+
+objectname.
+
+boolean String 
+
+TestScript - needs to be in a runnable 
+
+Selenium >> 
+
+Testing a car software - 
+50 non runnable classes - 300 functions 
+
+jar file 
+documentation - jdk documentation 
+
+packages - classes - functions 
+
+automation test script >> 
+
+web-based application 
+
+interacting with the web application
+
+selenium webdriver - interact with any web application - browser 
+
+setting up selenium webdriver - 
+
+1. selenium jar files 
+2. setup a driver for your browser 
+
+if I want to use google chrome browser - we need chrome driver
+
+driver is an executable file in our computer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
