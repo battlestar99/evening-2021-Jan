@@ -35,6 +35,67 @@ if I want to use google chrome browser - we need chrome driver
 
 driver is an executable file in our computer 
 
+Test Case - manual test cases 
+
+Test Script - 
+
+web application - browser 
+collection of web elements 
+
+interact with the web application - selenium 
+
+
+webelements - webobjects
+text box
+button 
+links 
+drop down menu 
+radio button
+check box 
+
+any instruction in selenium with webelements 
+
+1. finding the web element 
+
+HTML-CSS 
+hypertext markup lanugage
+casacading styple sheet 
+
+locating tecniques - id, name, xpath, css selector, linktext, partial linktext
+classname, tagname 
+
+code for text box
+
+after the tag name 
+attribute = value 
+
+<input type="text" id="usernamereg-firstName" 
+class="ureg-fname input-with-icon icon-name " 
+autocomplete="given-name" name="firstName" 
+placeholder="First&nbsp;name" aria-label="First&nbsp;name" 
+value="" maxlength="32" aria-required="true" aria-invalid="false">
+
+
+code for the button
+<button id="reg-submit-button" name="signup" 
+type="submit" data-rapid-tracking="true" data-ylk="elm:btn;elmt:nxt;slk:continue;mKey:registration-continue" 
+class="pure-button puree-button-primary puree-spinner-button">Continue</button>
+
+attribute human person 
+
+name
+address
+ssn - 2347823 
+car
+gender
+
+
+2. interact with the web element
+
+
+
+
+
 
 
 
