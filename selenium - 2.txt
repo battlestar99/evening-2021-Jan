@@ -1,0 +1,101 @@
+how to locate web elements ? 
+
+HTML/CSS 
+
+tagname
+attribute and value 
+
+id name xpath css selectore 
+
+www.phptravel.com 
+
+id attribute - 
+
+firstname - id = name
+lastname - id=name 
+
+attribute > locating tecniques
+id, name, xpath, css selector - you can use for any web elements
+
+linktext, partial link text - link ( starts with an anchor tag , a ) 
+
+classname , tagname = multiple web elements at the same time 
+
+<input type="text" name="address1" id="inputAddress1" 
+class="field form-control" 
+placeholder="Street Address" value="" required="", roll = 'a'>
+
+fundamental attribute - id, name
+
+compound attribute - xpath, css selectore 
+
+relative xpath - attribute and value 
+
+//tagname[@attribute='value']
+//input[@id='inputAddress1']
+
+//*[@id='inputAddress1']
+
+span - anjgular 
+
+aj
+
+xpath for street address - relative xpath
+
+//*[@id="inputAddress1"]
+
+full xpath - absolute xpath
+
+/html/body/section[3]/div/div/div[3]/div/form/div[1]/div[4]/div[2]/div/input
+
+1. any browser you can use to find weblements 
+2. change only in setting property and initializing driver 
+3. // means relative xpath and / means absolute xpath 
+
+CSS selector 
+
+
+tagname[attribute='value']
+input[id='inputAddress1']
+*[id='inputAddress1']
+
+//*[@id="frmCheckout"]/p/input
+
+
+
+
+
+
+wait function 
+
+implicit wait - used for making sure all the webelements are loaded 
+in the page 
+explicit wait - used to check if only one webelments is visible, clickable
+typeable, available, loaded 
+certain task 
+fluent wait 
+
+why wait: 
+
+1. internet speed 
+2. robust 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

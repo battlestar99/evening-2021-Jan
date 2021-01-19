@@ -11,13 +11,16 @@ public class yahooSignUp {
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\eclipse-December\\Libraries\\chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 
+driver.manage().deleteAllCookies();
+driver.manage().window().maximize();
+
 driver.get("https://login.yahoo.com/account/create");
 
 String title = driver.getTitle();
 
-driver.manage().deleteAllCookies();
 
-driver.manage().window().maximize();
+
+
 
 Thread.sleep(2000);
 

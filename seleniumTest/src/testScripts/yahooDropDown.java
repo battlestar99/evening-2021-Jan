@@ -12,7 +12,7 @@ public class yahooDropDown {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\eclipse-December\\Libraries\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-
+		
 		driver.get("https://login.yahoo.com/account/create");
 		
           Thread.sleep(2000);

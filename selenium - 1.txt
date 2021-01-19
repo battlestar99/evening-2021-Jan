@@ -93,6 +93,10 @@ gender
 2. interact with the web element
 
 
+link -- anchor tag , a 
+text box - input tag 
+button - button 
+drop down - select 
 
 
 
