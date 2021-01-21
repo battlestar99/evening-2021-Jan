@@ -9,11 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import pageObjectModel.registrarPage;
 
-public class registrationTest {
+public class testingTheSignup {
 
 	public static void main(String[] args) {
-	
-
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\eclipse-December\\Libraries\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
@@ -22,19 +20,18 @@ public class registrationTest {
 		//Thread.sleep(10000);
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+         
 		
 		registrarPage rp = new registrarPage(driver);
 		
+		WebElement firstname = driver.findElement(By.xpath("//*[@id=\"inputFirstName\"]"));
+		firstname.sendKeys("michael");
 		
-	//	WebElement firstname = driver.findElement(By.xpath("//*[@id=\"inputFirstName\"]"));
-	//	firstname.sendKeys("michael");
+		
+		//rp.getfirstName().sendKeys("test");
 		
 		
-		rp.getfirstName().sendKeys("dfasdf");
 		
-		//rp.getlastName().sendKeys("scott");
-		
-         
 	}
 
 }
