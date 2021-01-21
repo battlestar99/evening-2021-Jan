@@ -1,0 +1,94 @@
+java - programming language 
+
+selenium - web interaction library - browser automation library 
+
+main method of java - testscript
+
+testcase: 
+
+precondition
+steps : execution steps
+expected and actual result 
+expected and actual result is same >> pass
+expected and actual result is not same >> fail >> defect 
+
+test script : 
+precondition - browser, go to the url 
+steps : 
+expected and actual result >> 
+
+expected result - requirments >> brd, srs, user stories 
+actual result - after the test 
+
+Automated test script 
+
+1. finding web elements - id, name, xpath, linktext 
+2. interaction with the web elements - 
+
+
+WebElement x = driver.findelement(By.id("dfrdsaf"); 
+x.click()
+x.sendkeys(); 
+
+Automation test script - organize our code into framework 
+
+1. object driven framework (must) - 
+seperate the weblements or webobjects from the test script
+
+15 webelements >> 90 test scripts 
+
+15 webelements >> 60 different code location 
+
+class - page object model class 
+
+functions - to find web elements 
+
+5 web pages >> 5 page object model class
+
+
+
+
+2. data driven framework ( depends on the application) 
+seperate the test data from the test script 
+excel, xml, data table 
+
+
+constructor - not a function 
+
+public class abcd(){
+
+public abcd(){
+
+
+}
+
+
+}
+constructor overloading 
+
+we want to execute something whenever an object is create 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
