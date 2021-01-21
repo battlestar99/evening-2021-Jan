@@ -25,6 +25,10 @@ public class registrationTest {
 		
 		registrarPage rp = new registrarPage(driver);
 		
+		rp.getfirstName().sendKeys("dfasdf");
+		
+		rp.getlastName().sendKeys("scott");
+		
          
 	}
 
