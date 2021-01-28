@@ -1,0 +1,98 @@
+drop down : 
+
+1. 95 percent cases - select tag >> select class
+
+2. input tag - sendkeys("usa") 
+
+3. driver.findlement(by.xpath("//*[@id="containerNewUserSignup"]/div[2]/div[4]/div/div/div/ul/li[157]/span[1]").click();
+
+4. action class
+
+5. javascript execute 
+
+relative and absolute 
+xpath - attributes value
+absolute - HTML and css
+
+//*[@id="frmCheckout"]/p/input
+
+/html/body/section[3]/div/div/div[3]/div/form/p/input
+
+page object model - its not scripts 
+repository - list of all the webelements you need to use for your testing
+purpose 
+
+object driven , data driven - Test data 
+
+page object model - implement an object driven 
+
+page object model - non runnable class 
+
+you can create functions - call the function from the runnable class
+
+how to create function
+
+driver
+
+100 test scripts > 5 page object model 
+
+105 classes
+
+package is just a folder - java folder 
+
+
+java - class and object - OOP language 
+local and global variable 
+static 
+
+non runnable class - 
+
+regular concept - traditional programming concept 
+
+non-runnable class - design - prototype - data - reference variable
+
+properties - what something can have? 
+functions - what something can do ?
+
+design or prototype of something > 
+
+you can design a car in your computer - autocad 
+
+watch, chat, buy, 
+
+value - attribute - 
+
+what something can do ?
+what something can have? 
+
+static - properties of functions - which will not be part of the object
+
+functiona or properties - static - not part of the object 
+
+any variable we are creating inside a function is local variable - 
+only works within the function 
+
+webdriver driver=new chromedriver9()
+
+webdriver driver1=new chromedriver
+
+class - properties and function 
+objects get propertis and function of the class
+
+class - object
+function and properties
+static and non-static
+local and global variable
+constructor
+
+
+
+
+
+
+
+
+
+
+
+

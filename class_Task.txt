@@ -1,0 +1,19 @@
+https://www.elephant.com/
+
+you need to create 3 tests and page object model 
+for each page 
+
+
+1. scenario : 1 
+in the homepage check if login and get a quote button
+are displayed, enabled and with the right text
+
+2. scenario: 2 
+validate the end to end process for getting a quote 
+
+3. scenario : 3 
+validate all the links under the product option in the 
+are navigating to the right page 
+
+
+

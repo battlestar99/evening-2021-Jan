@@ -68,9 +68,28 @@ constructor overloading
 
 we want to execute something whenever an object is create 
 
+constructor enforce to provide some value - enforce to do some work
+
+page object model - non runnable class with functions 
 
 
+public returntype functionname(){
 
+
+}
+
+
+public WebElement getfirstname(){
+
+
+}
+
+
+20 webelements -- 60 different places 
+
+location of these 20 webelements changes .. 60
+
+driver.fionelement(byx
 
 
 
