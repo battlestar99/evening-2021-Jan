@@ -8,12 +8,52 @@ for each page
 in the homepage check if login and get a quote button
 are displayed, enabled and with the right text
 
+isdisplayed
+isEnabled
+gettext
+
+
+open the browser
+go to the url 
+check if login button is displayed, enabled and with the right text
+check if quote button is displayed, enabled and with the right text
+close the browser
+
+
+
+
+
+
+
+
 2. scenario: 2 
 validate the end to end process for getting a quote 
 
+
+
 3. scenario : 3 
-validate all the links under the product option in the 
-are navigating to the right page 
+validate all the links under the product option in the footer 
+to test links are navigating to the right page with right title 
+
+
+create a new java project >> 
+configure the project to use selenium>> 
+under the src folder create 2 packages >> 
+one package name is test.elephant.com
+other package name pages.elephant.com - 
+Hompage 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
