@@ -22,6 +22,8 @@ public class validateLoginQuoteV2 {
 		homePage hp =new homePage(driver);
 		
 		
+		//hp.getloginButton();
+		
 		boolean logindisplay = hp.getloginButton().isDisplayed();
 		boolean loginenabled = hp.getloginButton().isEnabled();
 		String loginText = hp.getloginButton().getText();

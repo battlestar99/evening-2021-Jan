@@ -21,11 +21,6 @@ close the browser
 
 
 
-
-
-
-
-
 2. scenario: 2 
 validate the end to end process for getting a quote 
 

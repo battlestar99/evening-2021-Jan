@@ -1,0 +1,85 @@
+int x; 
+
+double x; 
+
+System.out.println(x);
+
+homapage hp = new homepage(); 
+
+quotepage qp = new quotepage(); 
+
+scanner sc = new scnner(); 
+homepage sc = new homepage();
+
+for every page you have to create page object
+a page has just one webelement
+a page 100 webelements 
+
+Test library or Testing framework: 
+
+TestNG/Junit - test next generation - traditional testing framework 
+cucumber - behaviour driven development/testing ( BDD) - 5 years 
+
+why: 
+
+1. it doesnt give us any functionality for passing or failing tests
+2. organization of code 
+3. it doesn't give us any test report 
+4. we can not create a test suite - collection of test cases 
+5. data driven testing - cross browser testing 
+
+TestNG installation: 
+
+1. TestNG plugin for eclipse - 
+2. TestNG jar file - 
+
+
+Structure of TestNG 
+
+provides us a template - to run/organize our code 
+
+annotations and sequence in the testing library 
+
+one java class - one test script 
+
+@BeforeTest
+public void setupTest(){}
+providing pre-requirement of the test 
+
+@Test
+public void linktest(){}
+
+@Test
+public void logintest(){}
+
+
+@AfterTest
+public void finishTest(){}
+provdie post-requirement of the test 
+
+
+
+@BeforeTest
+
+@Test
+@Test
+
+@AfterTest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+
+Jar file link 
+https://mvnrepository.com/artifact/org.testng/testng/6.10
+
+Plugin link 
+https://dl.bintray.com/testng-team/testng-eclipse-release/
