@@ -67,6 +67,107 @@ provdie post-requirement of the test
 @AfterTest
 
 
+TestNG - runnable class 
+beforetest,aftertest, test - driver to open the browser 
+
+page object model classes - non runnable class
+constructor - to pass the driver to the page object model class
+
+TestNG - organize the code 
+
+beforetest - pre-requirement
+aftertest - post-requirement 
+
+@Test - Test case 
+
+validatesignup.java 
+@Test - validate at least one requirement
+@Test
+@Test
+
+3 tests - 3 test cases 
+
+50 test scripts - 200 @Test annotation 
+
+200 test cases - 200 tests 
+
+selenium - browser interaction
+testNG - for testing purpose
+
+Test environment - test code 
+
+package - java folder 
+Test scripts 
+page object model
+utilities 
+
+5 pages 
+homepage
+signuppage
+loginpage
+checkoutpage
+productpage
+
+100 web elements >> 20 web elements 
+
+requirements - 
+
+loginmodule : 
+
+req 1: login page should have login user name , password and login button
+
+pre-req - open the browser
+go to the url 
+
+test 
+check if user name text box is presetn - cp.getusername.isdisplyed
+check if password text box is present - cp.getpassword.isdisplaye
+check if login button is present - cp.loginbutton.isdisplayed
+
+post-reg
+closing the browser 
+driver.quit
+
+
+req 2: wroing user name submission should show a message "wrong username"
+
+req 3: wrong password should show a message "wrong password"
+
+req 4: wrong password submitted 4 times should lock the account
+
+req 5: forget password link should navigat to "www.agile1tech.com/forgetpassword" link
+
+req 6 : forget password should reset password through your email address
+
+
+testscripts >> validatewrongLoginmessage 
+@beforemethod
+driver.navigate.manage.refresh
+@Test
+public void validatewrongUsername()
+
+@Test(dependsONmethod= "validatewrongUsername")
+public void validatewroingpassword()
+
+
+
+req 2: wroing user name submission should show a message "wrong username"
+
+req 3: wrong password should show a message "wrong password"
+
+java programming - 
+
+selenium-testng-cucumber - java 
+
+global and local
+
+int x;
+
+x=76;
+
+20th February - saturday and sunday 
+
+10-2 
 
 
 
