@@ -8,7 +8,7 @@ public class loginPage {
 WebDriver driver; 
 
 	
-	public homePage(WebDriver x) {
+	public loginPage(WebDriver x) {
 		
 	driver=x;	
 		

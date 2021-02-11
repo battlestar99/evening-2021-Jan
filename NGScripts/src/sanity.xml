@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="sanity">
+<test name="sprint 2.2">
+
+<classes>
+
+
+<class name="scripts.sampleTest"></class>
+<class name="scripts.yahooSignUp"></class>
+<class name="scripts.yahooSignupElement"></class>
+<class name="scripts.sampleTestOne"></class>
+
+</classes>
+</test>
+</suite>

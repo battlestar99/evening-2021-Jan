@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke]">
+  <test name="checkout module(failed)">
+    <classes>
+      <class name="scripts.yahooSignupElement">
+        <methods>
+          <include name="endtest"/>
+          <include name="validateForm"/>
+          <include name="setupTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- scripts.yahooSignupElement -->
+      <class name="scripts.sampleTest">
+        <methods>
+          <include name="finishTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- scripts.sampleTest -->
+      <class name="scripts.yahooSignUp">
+        <methods>
+          <include name="setupTest"/>
+          <include name="finishTest"/>
+        </methods>
+      </class> <!-- scripts.yahooSignUp -->
+    </classes>
+  </test> <!-- checkout module(failed) -->
+</suite> <!-- Failed suite [smoke] -->

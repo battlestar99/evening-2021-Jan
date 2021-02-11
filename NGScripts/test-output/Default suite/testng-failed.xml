@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="scripts.yahooSignupElement">
+        <methods>
+          <include name="endtest"/>
+          <include name="validateForm"/>
+          <include name="setupTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- scripts.yahooSignupElement -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

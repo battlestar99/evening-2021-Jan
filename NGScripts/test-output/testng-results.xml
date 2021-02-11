@@ -1,37 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16630" started-at="2021-02-04T01:45:25Z" finished-at="2021-02-04T01:45:41Z">
+  <suite name="smoke" duration-ms="26859" started-at="2021-02-11T01:35:59Z" finished-at="2021-02-11T01:36:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16630" started-at="2021-02-04T01:45:25Z" finished-at="2021-02-04T01:45:41Z">
-      <class name="scripts.yahooTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:scripts.yahooTest@2a32de6c]" name="setupTest" is-config="true" duration-ms="8624" started-at="2021-02-03T20:45:25Z" finished-at="2021-02-03T20:45:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:scripts.yahooTest@2a32de6c]" name="beforeEachTest" is-config="true" duration-ms="1652" started-at="2021-02-03T20:45:33Z" finished-at="2021-02-03T20:45:35Z">
+    <test name="checkout module" duration-ms="26859" started-at="2021-02-11T01:35:59Z" finished-at="2021-02-11T01:36:25Z">
+      <class name="scripts.yahooSignupElement">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:scripts.yahooSignupElement@1810399e]" name="beforeEachTest" is-config="true" duration-ms="681" started-at="2021-02-10T20:36:19Z" finished-at="2021-02-10T20:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="validateElement()[pri:0, instance:scripts.yahooTest@2a32de6c]" name="validateElement" duration-ms="199" started-at="2021-02-03T20:45:35Z" finished-at="2021-02-03T20:45:35Z">
+        <test-method status="PASS" signature="validateElement()[pri:0, instance:scripts.yahooSignupElement@1810399e]" name="validateElement" duration-ms="111" started-at="2021-02-10T20:36:19Z" finished-at="2021-02-10T20:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateElement -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:scripts.yahooTest@2a32de6c]" name="beforeEachTest" is-config="true" duration-ms="237" started-at="2021-02-03T20:45:35Z" finished-at="2021-02-03T20:45:35Z">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:scripts.yahooSignupElement@1810399e]" name="beforeEachTest" is-config="true" duration-ms="197" started-at="2021-02-10T20:36:19Z" finished-at="2021-02-10T20:36:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="validateForm()[pri:1, instance:scripts.yahooTest@2a32de6c]" name="validateForm" duration-ms="4877" started-at="2021-02-03T20:45:35Z" finished-at="2021-02-03T20:45:40Z">
+        <test-method status="FAIL" signature="validateForm()[pri:1, instance:scripts.yahooSignupElement@1810399e]" name="validateForm" duration-ms="4327" started-at="2021-02-10T20:36:20Z" finished-at="2021-02-10T20:36:24Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...n.yahoo.com/account/[]> but was:<...n.yahoo.com/account/[create]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...n.yahoo.com/account/[]> but was:<...n.yahoo.com/account/[create]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at scripts.yahooSignupElement.validateForm(yahooSignupElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateForm -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:scripts.yahooTest@2a32de6c]" name="endtest" is-config="true" duration-ms="951" started-at="2021-02-03T20:45:40Z" finished-at="2021-02-03T20:45:41Z">
+      </class> <!-- scripts.yahooSignupElement -->
+      <class name="scripts.sampleTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:scripts.sampleTest@50c87b21]" name="setupTest" is-config="true" duration-ms="7" started-at="2021-02-10T20:35:59Z" finished-at="2021-02-10T20:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:scripts.yahooSignUp@5f375618]" name="setupTest" is-config="true" duration-ms="9424" started-at="2021-02-10T20:35:59Z" finished-at="2021-02-10T20:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:scripts.yahooSignupElement@1810399e]" name="setupTest" is-config="true" duration-ms="6257" started-at="2021-02-10T20:36:08Z" finished-at="2021-02-10T20:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="bmainTestOne()[pri:0, instance:scripts.sampleTest@50c87b21]" name="bmainTestOne" duration-ms="4" started-at="2021-02-10T20:36:14Z" finished-at="2021-02-10T20:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmainTestOne -->
+        <test-method status="PASS" signature="cmainTest()[pri:0, instance:scripts.sampleTest@50c87b21]" name="cmainTest" duration-ms="1" started-at="2021-02-10T20:36:14Z" finished-at="2021-02-10T20:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cmainTest -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:scripts.yahooSignUp@5f375618]" name="finishTest" is-config="true" duration-ms="766" started-at="2021-02-10T20:36:24Z" finished-at="2021-02-10T20:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:scripts.sampleTest@50c87b21]" name="finishTest" is-config="true" duration-ms="0" started-at="2021-02-10T20:36:24Z" finished-at="2021-02-10T20:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:scripts.yahooSignupElement@1810399e]" name="endtest" is-config="true" duration-ms="745" started-at="2021-02-10T20:36:25Z" finished-at="2021-02-10T20:36:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
-      </class> <!-- scripts.yahooTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- scripts.sampleTest -->
+      <class name="scripts.yahooSignUp">
+        <test-method status="PASS" signature="mainTest()[pri:0, instance:scripts.yahooSignUp@5f375618]" name="mainTest" duration-ms="4318" started-at="2021-02-10T20:36:14Z" finished-at="2021-02-10T20:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+      </class> <!-- scripts.yahooSignUp -->
+    </test> <!-- checkout module -->
+  </suite> <!-- smoke -->
 </testng-results>

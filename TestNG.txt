@@ -168,6 +168,80 @@ x=76;
 20th February - saturday and sunday 
 
 10-2 
+manual testing - 10 test cases - 1 defect - log the defect in jira - 
+
+automation testing - 200 test cases - 5 defects - log the defects in jira
+
+excel + word >> writing test cases - manual test case 
+
+java >> automated test cases - 
+
+release February 1st ( 10) - April 31st (11) 
+
+what could be the reasons to go to the new release? 
+
+1. software can have some modification
+2. bug fixes 
+3. new functionalites 
+4. programmer is improving the code - 
+
+release planning >> 
+
+1. new user stories >>  new functionalites 
+2. new user stories >> modification
+3. bug fixes
+4. improve the code 
+
+start work : 
+
+sprint 1 
+2 user stories >> 
+executing total new test >> smoke testing 
+
+200 test scripts + 10 test scripts >> 210 test scripts 
+
+210+20 >> 230 
+230+5>> 235
+
+regression >> 
+
+1000 test cases >> 
+
+10 tester >> 1 million dollar yearly
+2 automaiton tester >> 800K
+
+What to learn: TestNG 
+
+1. organize our code using annotations 
+2. how the reports are created 
+3. how to create pass/fail scenrio 
+4. how to create test suite 
+5. how to do parameterzied testing - data driven testing 
+
+creating pass fail scenrio - assertion 
+
+when a test fail -- 
+
+1. what do you do to know that application has defect ? 
+
+Assert class 
+
+expected result - must come from the requirement
+actual result - you are getting from test 
+
+expecte and actula is compared 
+
+if matches >> test pass
+if doesn't match >> test fail 
+
+
+Test suite >> collection of test cases or test scripts
+
+xml file in TestNG 
+
+
+
+
 
 
 

@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
+
 public class yahooSignupElement {
 	
 	
@@ -58,7 +60,8 @@ public class yahooSignupElement {
 		
 		boolean Userpasspresent = driver.findElement(By.id("usernamereg-password")).isDisplayed();
 	
-		// add the code 
+		Assert.assertTrue(firstNamepresent);
+		Assert.assertTrue(lastNamepresent);
 	}
 	
 	@Test(priority=1)
@@ -73,6 +76,11 @@ public class yahooSignupElement {
 		driver.findElement(By.id("usernamereg-password")).sendKeys("dsfjsadfjkl++");
 		Thread.sleep(1000);
 		
+		String expectedResult= "https://login.yahoo.com/account/"; 
+		
+		String actualResult = driver.getCurrentUrl();
+		
+		Assert.assertEquals(expectedResult, actualResult);
 		
 	}
 	
