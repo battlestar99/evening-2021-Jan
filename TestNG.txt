@@ -239,7 +239,10 @@ Test suite >> collection of test cases or test scripts
 
 xml file in TestNG 
 
+suite is the one xml file 
 
+under suite there can be multiple tests
+under each test there can be multiple classes 
 
 
 

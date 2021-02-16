@@ -1,0 +1,63 @@
+Cucumber as Testing Library or Testing Framework 
+
+TestNG - 
+1. code organization
+2. test suite 
+3. report 
+4. pass/fail scnerio 
+5. data driven testing 
+
+Technical type of framework 
+
+manual test case - qa lead, business analyst 
+automated test script - automation script 
+
+requirement - testing 
+
+Cucumber - BDD - behaviour driven development 
+
+1. code organization
+2. test suite 
+3. report 
+4. pass/fail scnerio 
+5. data driven testing
+
+cucumber has 2 parts - 
+non-technical part - manual test case - feature file / featurs 
+technical part - automated test script - step definition file/java file
+
+non-technical part -- feature 
+feature file - 
+scenerio - one test 
+
+gherkin language - gherkin keywords 
+given, when, then, and, but 
+
+scenerio : testing the login panel with positive data 
+pre-requirement
+
+Given user is on the login page 
+When user enters the user id 
+And user enters the password 
+And user clicks on login button
+Then user should be able to login
+
+
+Given user is on the login page 
+When user enters the user id 
+And user enters the password 
+And user clicks on login button
+Then user should be able to login
+But user should not be able to login
+
+
+
+
+
+
+
+
+
+
+
+
