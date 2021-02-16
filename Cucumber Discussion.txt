@@ -19,7 +19,7 @@ Cucumber - BDD - behaviour driven development
 1. code organization
 2. test suite 
 3. report 
-4. pass/fail scnerio 
+4. pass/fail scnerio - assertion
 5. data driven testing
 
 cucumber has 2 parts - 
@@ -49,6 +49,31 @@ And user enters the password
 And user clicks on login button
 Then user should be able to login
 But user should not be able to login
+
+feature
+scenario
+background 
+
+
+given
+when
+and
+then
+but 
+
+feaure file >>> non tehnical , we can run it as feature, but in 
+reality it can not execute anything 
+
+
+step definition file >> java file 
+
+connection bewtween feature and step definition: 
+
+1. only sequnce of feature matters, sequence of step def 
+doesn't matter
+2. steps have to exactly match with the annotations parameter
+not any space, not any capital case- lowe case 
+3. you can not implement one step multiple time 
 
 
 
