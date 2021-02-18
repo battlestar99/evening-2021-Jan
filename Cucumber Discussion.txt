@@ -76,6 +76,45 @@ not any space, not any capital case- lowe case
 3. you can not implement one step multiple time 
 
 
+http://cucumber.github.io/cucumber-eclipse/update-site/
+
+1. setting up cucumber - libraries and plugin 
+2. feature and stepdef 
+feature - bdd
+given - pre-requirement  
+when - action
+then - expecing and unexpected 
+
+gherkin keywords - feature, scenerio, given, when, and, then, but 
+step def - @Given(dkjksdfjklsdj), @When
+
+background is used if there is common pre-steps 
+1. data driven framework in cucumber - datatable
+2. page object model - object driven framework
+
+data driven framework in cucumber - 
+data table 
+scenario outline and example 
+
+selectByVisibleText(arg1)
+
+Test Suite - 
+Report - 
+
+we can only feature file - TestRunner  
+
+junit test runner 
+
+
+Tags - to specify what scenario we want to run 
+
+Hooks - execute before each feature 
+
+@Before - gets executed before the first scenario 
+@After - gets executed after the last scenario 
+
+TaggedHook 
+
 
 
 

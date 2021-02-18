@@ -1,5 +1,8 @@
 Feature: Web accessibility testing
 
+ 
+ 
+ @smoke @uat
   Scenario: validating if the web is accessible from mozila
     Given the mozila browser is open
     When user navigate to the application
