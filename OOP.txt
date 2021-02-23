@@ -1,0 +1,71 @@
+object oriented programming - OOP 
+
+interview purpose - 
+
+class - design/prototype - non-runnble class 
+
+object is the implemenation - 
+
+bankaccount >> 
+attributes >> the data system has >> global variable
+action >> what the system can >> functions/methods
+
+multiple constructor with different parameter >> constructor overloading
+multiple methods with different parameter>> method overloading
+static >> only part of class, no relation with object 
+access modifier>> 
+public >> can be accessed from outside the package, 
+inside package, inside class 
+private - can only be used inside the class 
+proteced - no modifier is same >> can be used inside the same
+package but not outside the package
+no modifier
+
+
+relation between multiple classes 
+inheritance - child - parent
+sub class - super class 
+sub class gets all the properties and functions from super class
+but super class doesnt get anything from subclass
+
+if parent and child have same function
+child class object has to use its own function 
+method overriding >> parent and child class
+child class object is using its own function and can not use 
+the parent class- that calls method overriding 
+
+bankaccount - deposit, withdraw, checkaccount, sendmone
+checkingaccount extens bankaccount
+savingaccount extends bankaccount
+mortageaccount extends bankaccount
+
+
+abstract class - you can not create an object of the class, 
+how to use the functions or properties? 
+through the child classes 
+
+interface - create an outline for classes 
+in an interface - we can define some functions but can not 
+implement them
+
+mozila firefox 
+chrome
+IE
+
+interface creates an outline of functions that needs to be implemented
+when the interface is getting implemented 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+code management - maven project, git-github, jenkins

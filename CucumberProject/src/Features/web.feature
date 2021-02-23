@@ -12,3 +12,6 @@ Feature: Web accessibility testing
     Given the chrome browser is open
     When user navigate to the application
     Then user should be able to see application home page
+
+
+    
